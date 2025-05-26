@@ -15,7 +15,33 @@ body {
 }
 
 .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
   max-width: 20rem;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
+
+}
+
+.menu-btn {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  color: white;
+  width: fit-content;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu-btn:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#content {
+  width: 100%;
 }
