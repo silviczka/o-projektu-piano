@@ -38,6 +38,18 @@ content.innerHTML = `
             <div class="image-label">O projektu</div>
         </div>
 
+         <div onclick="window.open('https://piano-hackaton.netlify.app/', '_blank')"
+     style="display: flex; flex-direction: column; align-items: center; cursor: pointer;">
+
+
+        
+            <div class="image-wrapper">
+               <img src="img/musKeyCol.png" alt="Hra" class="rotating-image"  />
+            </div>
+
+
+            <div class="image-label">Hra</div>
+        </div>
 
           
     </div>
